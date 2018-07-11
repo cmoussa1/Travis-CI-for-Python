@@ -4,7 +4,7 @@ def compute_avg(scores):
 		total = total + score
 
 	avg = float(total) / len(scores)
-	print "The average is " + str(avg)
+	print("The average is " + str(avg))
 	return avg 
 
 def compute_min(scores):

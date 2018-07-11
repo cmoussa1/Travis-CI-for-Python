@@ -1,1 +1,14 @@
 theme: jekyll-theme-midnight
+
+title: Travis CI for Python
+author: Christopher Moussa
+email: moussa1@llnl.gov
+description: > 
+	This is a short tutorial explaining the process of integrating Travis CI 
+	for an existing Python project, as well as showing users how to integrate 
+	its badge into users' GitHub repos.
+
+# social links
+github_username: moussa1
+
+show_excerpts: true # set to false to remove excerpts on the homepage

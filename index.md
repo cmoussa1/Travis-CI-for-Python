@@ -70,10 +70,19 @@ SyntaxError: invalid syntax
 
 This is an easy fix! All we need to do is add a set of parentheses around our print statement and everything will get back to working normally. 
 
+## Adding a Travis CI Build Badge to your GitHub Repo's Home Page
+
+If you want to see your Travis CI's build status straight from your GitHub Repo's home page, all you need to do is add the following line to your README:
+
+```
+[![Build Status](https://travis-ci.com/cmoussa1/Travis-CI-for-Python.svg?branch=master)](https://travis-ci.com/cmoussa1/Travis-CI-for-Python)
+```
+
+Before you first integrate Travis, the badge should look like this: [![Build Status](https://travis-ci.com/cmoussa1/Cthulu-Resume.svg?branch=master)](https://travis-ci.com/cmoussa1/Cthulu-Resume)
+
+But after your succesfully build your project, your badge will look like this: [![Build Status](https://travis-ci.org/LLNL/py-hostlist.svg?branch=master)](https://travis-ci.org/LLNL/py-hostlist)
+
+
 ## Summary
 
 I hope this tutorial helped with setting up and integrating Travis CI with your Python project! This tool is great for seeing how changes in your code affect build success, as well as ensuring that your code is version agnostic. 
-
-
-
-

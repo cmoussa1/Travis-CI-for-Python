@@ -14,7 +14,7 @@ For this tutorial I am going to be testing just one file, **stats.py**, a simple
 
 Our GitHub repo now contains these two files, maybe with a README to describe the functionality further. It's time to link this repo with Travis CI.
 
-###### Note
+#### Note
 
 *Make sure that you have admin privileges on the repo you are trying to integrate Travis CI with. If your repo is in an organization on GitHub, make sure that you are a member of that org before setting Travis up!*
 

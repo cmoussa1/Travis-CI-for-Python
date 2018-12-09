@@ -51,7 +51,7 @@ script:
 
 More often than not, the first time we build with Travis will show us some errors it encountered while building. This is okay, because all we have to do is look at the raw log of the failed build and see what went wrong. 
 
-For example, let's say in our *compute_avg* method in **stats.py** I added a print statement that looked like the following:
+For example, let's say in our *compute_avg* method in **stats.py**, I added a print statement that looked like the following:
 
 `print "The average is " + str(avg)`
 
